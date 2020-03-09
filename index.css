@@ -1,0 +1,57 @@
+body {
+    font-family: robotolight, arial, serif, sans-serif;
+    margin: auto;
+    border: 1px solid #336699;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+#photoclara {
+    background-color: #336699;
+    width: 35%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #336699;
+    background: url(claraphoto1.jpg) no-repeat;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-size: 34%;
+}
+
+#size {
+    width: 150px;
+}
+
+#title {
+    width: 65%;
+    text-align: justify;
+    margin: 5%;
+    line-height: 110%;
+    color: #336699;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h1 > span {
+    color: blue;
+}
+
+h2 > span {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-position: under;
+
+}
+
