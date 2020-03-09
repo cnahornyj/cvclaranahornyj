@@ -24,11 +24,11 @@ header {
     margin: auto;
 }
 
-#size {
+#sizeofphoto {
     width: 150px;
 }
 
-#pres {
+#presentation {
     width: 65%;
     text-align: justify;
     margin: 5%;
@@ -109,11 +109,6 @@ address {
     font-weight: 10rem;
 }
 
-h3 > i {
-    color: #336699;
-    padding-right: 3%;
-}
-
 #bloc_droite {
     width: 65%;
     margin: 0 5%;
@@ -124,37 +119,48 @@ h3 > i {
     color: #000;
 }
 
-#formations1 {
+h3 > i {
+    color: #336699;
+    padding-right: 3%;
+}
+
+#formation1 {
     display: flex;
     border-top: 1.3px solid #336699;
     padding-top: 4%;
 }
 
-#formations {
+#formation {
     display: flex;
     padding-top: 4%;
 }
 
-.formation {
+.year {
     padding: 0 20% 0 0;
 }
 
-.recommandation {
-    padding: 0 0 0 20%;
-}
-
-.dot {
+.circle {
     padding: 100% 7% 0 0;
-}
-
-.date > p {
-    padding: 0 100% 0 100%;
 }
 
 .date {
     width: 40%;
     display: flex;
 }
+
+.date > p {
+    padding: 0 100% 0 100%;
+}
+
+.recommandation {
+    padding: 0 0 0 20%;
+}
+
+
+
+
+
+
 
 .etablissement {
     width: 60%;
