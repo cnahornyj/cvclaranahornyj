@@ -1,7 +1,7 @@
 body {
-    font-family: robotolight, arial, serif, sans-serif;
+    font-family: arial, serif, sans-serif;
     margin: auto;
-    border: 1px solid #336699;
+    border: 1px solid #607D8B;
     max-width: 900px;
 }
 
@@ -11,47 +11,156 @@ header {
 }
 
 #photoclara {
-    background-color: #336699;
+    background-color: #607D8B;
     width: 35%;
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding: 5% 0 5% 0;
 }
 
 #photo {
     width: 150px;
     height: 150px;
-    border: 3px solid #336699;
-    background: url(claraphoto1.jpg) no-repeat;
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
-    background-size: 34%;
 }
 
 #size {
     width: 150px;
 }
 
-#title {
+#pres {
     width: 65%;
     text-align: justify;
     margin: 5%;
     line-height: 110%;
-    color: #336699;
+    color: #607D8B;
 }
 
 h1 {
     font-size: 250%;
+    color: #000;
 }
 
 h1 > span {
-    color: blue;
+    color: #607D8B;
+}
+
+h2 {
+    color: #000;
 }
 
 h2 > span {
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: #607D8B;
     text-underline-position: under;
-
 }
+
+#blocs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#bloc_gauche {
+    width: 35%;
+    background-color: #607D8B;
+}
+
+#bloc_gauche h3 {
+    background-color: #EEEEEE;
+    color: #607D8B;
+    text-align: center;
+    padding: 4% 0;
+    margin: 0;
+    font-size: 120%;
+    border-right: 1px solid #607D8B;
+}
+
+address {
+    font-style: normal;
+    padding: 10% 15% 15% 15%;
+    line-height: 1.2em;
+    color: #EEEEEE;
+}
+
+#informations > p {
+    padding: 10% 15% 50% 15%;
+    line-height: 1.2em;
+    text-align: justify;
+    color: #EEEEEE;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    padding: 8%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    margin: auto;
+    font-weight: 10rem;
+}
+
+h3 > i {
+    color: #336699;
+    padding-right: 3%;
+}
+
+#bloc_droite {
+    width: 65%;
+    margin: 0 5%;
+    color: #607D8B;
+}
+
+#bloc_droite h3 {
+    color: #000;
+}
+
+#formations1 {
+    display: flex;
+    border-top: 1.3px solid #336699;
+    padding-top: 4%;
+}
+
+#formations {
+    display: flex;
+    padding-top: 4%;
+}
+
+.formation {
+    padding: 0 20% 0 0;
+}
+
+.recommandation {
+    padding: 0 0 0 20%;
+}
+
+.dot {
+    padding: 100% 7% 0 0;
+}
+
+.date > p {
+    padding: 0 100% 0 100%;
+}
+
+.date {
+    width: 40%;
+    display: flex;
+}
+
+.etablissement {
+    width: 60%;
+    text-align: justify;
+}
+
+
+
 
