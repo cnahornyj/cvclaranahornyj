@@ -7,6 +7,7 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -20,6 +21,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 1.5px solid #37474F;
     overflow: hidden;
     margin: auto;
 }
@@ -33,7 +35,6 @@ header {
     text-align: justify;
     margin: 5%;
     line-height: 110%;
-    color: #607D8B;
 }
 
 h1 {
@@ -61,12 +62,12 @@ h2 > span {
     width: 100%;
 }
 
-#bloc_gauche {
+#left_block {
     width: 35%;
     background-color: #607D8B;
 }
 
-#bloc_gauche h3 {
+#left_block h3 {
     background-color: #EEEEEE;
     color: #607D8B;
     text-align: center;
@@ -109,19 +110,25 @@ address {
     font-weight: 10rem;
 }
 
-#bloc_droite {
+#right_block {
     width: 65%;
     margin: 0 5%;
-    color: #607D8B;
+    color: #455A64;
 }
 
-#bloc_droite h3 {
+#right_block h3 {
     color: #000;
 }
 
 h3 > i {
     color: #336699;
     padding-right: 3%;
+}
+
+#recommandation1 {
+    display: flex;
+    border-top: 1.3px solid #336699;
+    padding-top: 4%;
 }
 
 #formation1 {
@@ -152,20 +159,105 @@ h3 > i {
     padding: 0 100% 0 100%;
 }
 
+.etablissement {
+    width: 60%;
+}
+
 .recommandation {
     padding: 0 0 0 20%;
 }
 
+@media all and (max-width: 800px){
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    #photoclara {
+        width: 100%;
+        padding: 2% 0 2% 0;
+    }
 
+    #presentation {
+        width: 90%;
+        text-align: center;
+    }
 
+    #blocs {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
 
+    #right_block {
+        width: 90%;
+    }
 
+    #left_block {
+        width: 100%;
+    }
 
-.etablissement {
-    width: 60%;
-    text-align: justify;
+    address {
+        padding: 5% 15% 5% 15%;
+    }
+
+    #recommandation1 {
+        display: flex;
+        border-top: 1.3px solid #336699;
+        padding: 4% 0 4% 0;
+    }
+
+    #informations > p {
+        padding: 8% 15% 8% 15%;
+    }
+
+    #left_block h3 {
+        border-right: none;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .recommandation {
+        padding: 0 0 0 30%;
+    }
 }
+
+@media all and (max-width: 500px){
+    #photoclara {
+        background-color: #455A64;
+    }
+    
+    h1 {
+        font-size: 150%;
+    }
+
+    h1 > span {
+        color: #455A64;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    #formation, #formation1, #recommandation1  {
+        color: #455A64;
+    }
+
+    #formation1, #recommandation1 {
+        border-top: 1.3px solid #455A64;
+    }
+
+    #left_block {
+        background-color: #455A64;
+    }
+
+    #left_block h3 {
+        color: #455A64;
+    }
+}
+
+
 
 
 
