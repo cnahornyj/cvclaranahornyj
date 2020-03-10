@@ -86,7 +86,7 @@ address {
 
 #informations > p {
     padding: 10% 15% 50% 15%;
-    line-height: 1.2em;
+    line-height: 1.25;
     text-align: justify;
     color: #EEEEEE;
 }
@@ -94,7 +94,7 @@ address {
 #icons {
     display: flex;
     flex-direction: row;
-    padding: 8%;
+    padding: 11%;
 }
 
 .icon {
@@ -200,6 +200,8 @@ h3 > i {
 
     address {
         padding: 5% 15% 5% 15%;
+        text-align: center;
+        font-weight: bold;
     }
 
     #recommandation1 {
@@ -254,6 +256,21 @@ h3 > i {
 
     #left_block h3 {
         color: #455A64;
+    }
+}
+
+@media all and (max-width: 450px){
+    
+    .circle {
+        visibility: hidden;
+    }
+
+    .date > p {
+        padding: 0;
+    }
+
+    #right_block > h3 {
+        font-size: 110%;
     }
 }
 
