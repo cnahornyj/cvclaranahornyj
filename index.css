@@ -1,14 +1,12 @@
 body {
     font-family: arial, serif, sans-serif;
-    margin: auto;
     border: 1px solid #607D8B;
+    margin: auto;
     max-width: 900px;
 }
 
 header {
     display: flex;
-    flex-direction: row;
-    width: 100%;
 }
 
 #photoclara {
@@ -27,18 +25,16 @@ header {
 }
 
 #sizeofphoto {
-    width: 200px;
+    width: 205px;
 }
 
 #presentation {
     width: 65%;
-    text-align: justify;
     line-height: 110%;
 }
 
 h1 {
     font-size: 250%;
-    color: #000;
     padding: 15% 0 0 7%;
 }
 
@@ -59,8 +55,6 @@ h2 > span {
 
 #blocs {
     display: flex;
-    flex-direction: row;
-    width: 100%;
 }
 
 #left_block {
@@ -72,7 +66,7 @@ h2 > span {
     background-color: #EEEEEE;
     color: #607D8B;
     text-align: center;
-    padding: 4% 0;
+    padding: 4%;
     margin: 0;
     font-size: 120%;
     border-right: 1px solid #607D8B;
@@ -81,8 +75,13 @@ h2 > span {
 address {
     font-style: normal;
     padding: 10% 15% 15% 15%;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: #EEEEEE;
+}
+
+a {
+    text-decoration: none;
+    color: #E0E0E0;
 }
 
 #informations > p {
@@ -108,7 +107,6 @@ address {
     border-radius: 50%;
     color: #fff;
     margin: auto;
-    font-weight: 10rem;
 }
 
 #right_block {
@@ -121,13 +119,10 @@ p {
     line-height: 1.3;
 }
 
-a {
-    text-decoration: none;
-    color: #E0E0E0;
-}
-
-#right_block h3 {
+#right_block > h3 {
     color: #000;
+    border-bottom: 1.3px solid #336699;
+    padding-bottom: 1%;
 }
 
 h3 > i {
@@ -135,52 +130,46 @@ h3 > i {
     padding-right: 3%;
 }
 
-#recommandation1 {
-    display: flex;
-    border-top: 1.3px solid #336699;
-    padding: 4% 0 0 5%;
-}
-
-#formation1 {
-    display: flex;
-    border-top: 1.3px solid #336699;
-    padding-top: 2%;
-}
-
 #formation {
     display: flex;
+    padding-bottom: 1%;
 }
 
 .year {
     padding: 0 15% 0 0;
 }
 
-.circle {
-    padding: 105% 7% 0 0;;
-}
-
 .date {
-    width: 30%;
     display: flex;
+    width: 30%;
 }
 
 .date > p {
     padding: 20% 10% 0 100%;;
 }
 
+.circle {
+    padding: 105% 7% 0 0;
+}
+
 .etablissement {
     width: 70%;
 }
 
-.recommandation {
-    padding: 0 0 0 20%;
+#recommandation {
+    display: flex;
 }
 
+.recommandation1 {
+    padding-left: 15%;
+}
+
+/* Partie responsive */
+
 @media all and (max-width: 800px){
+    
     header {
-        display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     #photoclara {
@@ -194,9 +183,7 @@ h3 > i {
     }
 
     #blocs {
-        display: flex;
         flex-direction: column-reverse;
-        width: 100%;
     }
 
     #right_block {
@@ -213,9 +200,7 @@ h3 > i {
         font-weight: bold;
     }
 
-    #recommandation1 {
-        display: flex;
-        border-top: 1.3px solid #336699;
+    #recommandation {
         padding: 2% 0 3% 0;
     }
 
@@ -241,42 +226,27 @@ h3 > i {
         padding: 0 0 0 30%;
     }
 
-    .circle {
-        padding: 106% 7% 0 0;
+    .recommandation1 {
+        padding-left: 25%;
     }
 }
 
 @media all and (max-width: 500px){
-    #photoclara {
+    
+    #photoclara, #left_block {
         background-color: #455A64;
     }
+    
+    h1 > span, #left_block h3, #formation, #recommandation1 {
+        color: #455A64;
+    }    
     
     h1 {
         font-size: 150%;
     }
 
-    h1 > span {
-        color: #455A64;
-    }
-
     h2 {
         font-size: 130%;
-    }
-
-    #formation, #formation1, #recommandation1  {
-        color: #455A64;
-    }
-
-    #formation1, #recommandation1 {
-        border-top: 1.3px solid #455A64;
-    }
-
-    #left_block {
-        background-color: #455A64;
-    }
-
-    #left_block h3 {
-        color: #455A64;
     }
 }
 
@@ -292,6 +262,41 @@ h3 > i {
 
     #right_block > h3 {
         font-size: 110%;
+    }
+}
+
+@media all and (max-width: 355px) {
+
+    #photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    #sizeofphoto {
+        width: 150px;
+    }
+    
+    h2 {
+        font-size: 120%;
+    }
+    
+    #formation, #formation1 {
+        flex-direction: column;
+    }
+
+    .etablissement {
+        width: 100%;
+        margin-top: -17px;
+    }
+
+    .circle {
+        padding: 0;
+        margin-right: -15px;
+    }
+
+    .year {
+        font-weight: bold;
+        padding: 0;
     }
 }
 
