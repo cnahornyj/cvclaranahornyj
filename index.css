@@ -156,7 +156,7 @@ h3 > i {
 }
 
 .circle {
-    padding: 100% 7% 0 0;
+    padding: 105% 7% 0 0;;
 }
 
 .date {
@@ -165,7 +165,7 @@ h3 > i {
 }
 
 .date > p {
-    padding: 0 100% 0 100%;
+    padding: 20% 10% 0 100%;;
 }
 
 .etablissement {
@@ -216,7 +216,7 @@ h3 > i {
     #recommandation1 {
         display: flex;
         border-top: 1.3px solid #336699;
-        padding: 4% 0 4% 0;
+        padding: 2% 0 3% 0;
     }
 
     h1 {
@@ -239,6 +239,10 @@ h3 > i {
 
     .recommandation {
         padding: 0 0 0 30%;
+    }
+
+    .circle {
+        padding: 106% 7% 0 0;
     }
 }
 
