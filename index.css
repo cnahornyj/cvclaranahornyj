@@ -89,7 +89,7 @@ a {
 }
 
 #informations > p {
-    padding: 10% 15% 50% 15%;
+    padding: 10% 15% 170% 15%;
     line-height: 1.5;
     text-align: justify;
     color: #EEEEEE;
@@ -131,7 +131,7 @@ p {
 }
 
 h3 > i {
-    color: #607D8B;
+    color: #455A64;
     padding-right: 3%;
 }
 
@@ -163,6 +163,7 @@ h3 > i {
 
 .taches {
     font-size: 99%;
+    text-align: justify;
 }
 
 #recommandation {
