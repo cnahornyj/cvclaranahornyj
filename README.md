@@ -1,6 +1,6 @@
                                                     CV Clara NAHORNYJ
 
-![sitecvcn](https://user-images.githubusercontent.com/50677355/76623932-a50cb680-6534-11ea-9268-27ec5442be68.png)
+![sitecvcn](https://user-images.githubusercontent.com/50677355/76624363-6d523e80-6535-11ea-8ddc-96728990bf37.jpg)
 
 https://cnahornyj.github.io/cvclaranahornyj/
 
