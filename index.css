@@ -89,7 +89,7 @@ a {
 }
 
 #informations > p {
-    padding: 10% 15% 170% 15%;
+    padding: 10% 15% 150% 15%;
     line-height: 1.5;
     text-align: justify;
     color: #EEEEEE;
@@ -163,7 +163,7 @@ h3 > i {
 }
 
 .recommandation1 {
-    padding-left: 15%;
+    padding-left: 18%;
 }
 
 /* Partie responsive */
