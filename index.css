@@ -154,7 +154,7 @@ h3 > i {
 }
 
 .puce {
-    padding: 105% 7% 0 0;
+    padding: 130% 7% 0 0;
 }
 
 .etablissement {
@@ -231,6 +231,10 @@ h3 > i {
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
     }
+
+    .puce {
+        padding: 140% 7% 0 0;
+    }
   
     .recommandation1 {
         padding-left: 25%;
@@ -246,6 +250,9 @@ h3 > i {
     h2 {
         font-size: 130%;
     }
+
+    .taches {
+        text-align: left;
 }
 
 @media all and (max-width: 450px){
