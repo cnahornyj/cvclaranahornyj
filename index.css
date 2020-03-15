@@ -183,7 +183,7 @@ h3 > i {
         text-align: center;
     }
 
-    #blocs {
+    main {
         flex-direction: column-reverse;
     }
 
