@@ -141,29 +141,20 @@ h3 > i {
 }
 
 .annee {
-    padding: 0 15% 0 0;
-}
-
-.date {
-    display: flex;
-    width: 30%;
-}
-
-.date > p {
-    padding: 20% 10% 0 100%;;
+    padding: 0 20% 0 3%;
 }
 
 .puce {
-    padding: 130% 7% 0 0;
+    padding-top: 4%;
 }
 
 .etablissement {
     width: 70%;
+    line-height: 0.5;
 }
 
 .taches {
     font-size: 99%;
-    text-align: justify;
 }
 
 #recommandation {
@@ -232,10 +223,6 @@ h3 > i {
         border-bottom: 1px solid #ccc;
     }
 
-    .puce {
-        padding: 140% 7% 0 0;
-    }
-  
     .recommandation1 {
         padding-left: 25%;
     }
@@ -250,19 +237,12 @@ h3 > i {
     h2 {
         font-size: 130%;
     }
-
-    .taches {
-        text-align: left;
 }
 
 @media all and (max-width: 450px){
     
     .puce {
         visibility: hidden;
-    }
-
-    .date > p {
-        padding: 0;
     }
 
     #bloc_droit > h3 {
