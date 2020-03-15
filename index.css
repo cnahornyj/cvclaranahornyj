@@ -151,6 +151,7 @@ h3 > i {
 .etablissement {
     width: 70%;
     line-height: 0.5;
+    padding-top: 0.5%;
 }
 
 .taches {
