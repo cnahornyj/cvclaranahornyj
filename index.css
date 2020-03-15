@@ -140,9 +140,17 @@ h3 > i {
     padding-bottom: 1%;
 }
 
+.puce {
+    padding: 3.5% 4% 0 0;
+}
+
+.annee {
+    padding-right: 20%;
+}
+
 .etablissement {
     line-height: 0.5;
-    padding-top: 0.5%;
+    padding-top: 0.75%;
 }
 
 .taches {
