@@ -140,10 +140,6 @@ h3 > i {
     padding-bottom: 1%;
 }
 
-.annee {
-    padding: 0 20% 0 3%;
-}
-
 .etablissement {
     line-height: 0.5;
     padding-top: 0.5%;
@@ -269,10 +265,6 @@ h3 > i {
         margin-top: -17px;
     }
 
-    .annee {
-        font-weight: bold;
-        padding: 0;
-    }
 }
 
 
