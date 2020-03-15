@@ -89,7 +89,7 @@ a {
 }
 
 #informations > p {
-    padding: 10% 15% 150% 15%;
+    padding: 10% 15% 135% 15%;
     line-height: 1.5;
     text-align: justify;
     color: #EEEEEE;
@@ -114,8 +114,7 @@ a {
 }
 
 #bloc_droit {
-    width: 55%;
-    margin: auto;
+    width: 65%;
     padding-bottom: 2%;
     color: #455A64;
 }
@@ -128,6 +127,8 @@ p {
     color: #000;
     border-bottom: 1.3px solid #336699;
     padding-bottom: 1%;
+    width: 90%;
+    margin: auto;
 }
 
 h3 > i {
@@ -137,7 +138,7 @@ h3 > i {
 
 .mise_en_page {
     display: flex;
-    padding-bottom: 1%;
+    padding: 0 0 1% 5%;
 }
 
 .puce {
@@ -159,6 +160,12 @@ h3 > i {
 
 #recommandation {
     display: flex;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+#formation, #experience_professionnelle {
+    padding-top: 4%;
 }
 
 .recommandation1 {
@@ -189,6 +196,7 @@ h3 > i {
 
     #bloc_droit {
         width: 90%;
+        margin: auto;
     }
 
     #bloc_gauche {
