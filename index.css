@@ -144,10 +144,6 @@ h3 > i {
     padding: 0 20% 0 3%;
 }
 
-.puce {
-    padding-top: 4%;
-}
-
 .etablissement {
     line-height: 0.5;
     padding-top: 0.5%;
@@ -271,11 +267,6 @@ h3 > i {
 
     .etablissement {
         margin-top: -17px;
-    }
-
-    .puce {
-        padding: 0;
-        margin-right: -15px;
     }
 
     .annee {
