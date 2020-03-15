@@ -57,7 +57,7 @@ h2 > span {
     text-underline-position: under;
 }
 
-#blocs {
+main {
     display: flex;
 }
 
