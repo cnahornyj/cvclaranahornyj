@@ -9,6 +9,8 @@ header {
     display: flex;
 }
 
+/* Section photo */
+
 #photo {
     background-color: #607D8B;
     width: 35%;
@@ -27,6 +29,8 @@ header {
 #taille_photo {
     width: 205px;
 }
+
+/* Section titre */
 
 #titre {
     width: 65%;
@@ -66,6 +70,8 @@ main {
     background-color: #607D8B;
 }
 
+/* Section contact */
+
 #bloc_gauche h3 {
     background-color: #EEEEEE;
     color: #607D8B;
@@ -88,6 +94,8 @@ a {
     color: #E0E0E0;
 }
 
+/* Section à propos de moi */
+
 #informations > p {
     padding: 10% 15% 135% 15%;
     line-height: 1.5;
@@ -100,6 +108,8 @@ a {
     flex-direction: row;
     padding: 11%;
 }
+
+/* Section loisirs */
 
 .icone {
     display: flex;
@@ -119,10 +129,6 @@ a {
     color: #455A64;
 }
 
-p {
-    line-height: 1.5;
-}
-
 #bloc_droit > h3 {
     color: #000;
     border-bottom: 1.3px solid #336699;
@@ -136,12 +142,25 @@ h3 > i {
     padding-right: 3%;
 }
 
+/* Section formation */
+
+#formation, #experience_professionnelle {
+    padding-top: 4%;
+}
+
 .mise_en_page {
     display: flex;
 }
 
+
+/*
 .puce {
-    padding: 3.5%;
+    padding: 3.5% 2% 0 5.5%;
+}
+*/
+
+.annee {
+    margin-left: 1%;
 }
 
 .etablissement {
@@ -151,20 +170,15 @@ h3 > i {
 
 .taches {
     font-size: 99%;
+    line-height: 1.5;
 }
+
+/* Section recommandations */
 
 #recommandation {
     display: flex;
     padding-left: 5%;
     padding-top: 4%;
-}
-
-#formation, #experience_professionnelle {
-    padding-top: 4%;
-}
-
-.recommandation1 {
-    padding-left: 18%;
 }
 
 /* Partie responsive */
@@ -225,10 +239,6 @@ h3 > i {
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
     }
-
-    .recommandation1 {
-        padding-left: 25%;
-    }
 }
 
 @media all and (max-width: 500px){
@@ -243,10 +253,6 @@ h3 > i {
 }
 
 @media all and (max-width: 450px){
-    
-    .puce {
-        visibility: hidden;
-    }
 
     #bloc_droit > h3 {
         font-size: 110%;
