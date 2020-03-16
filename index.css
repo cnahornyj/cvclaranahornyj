@@ -97,7 +97,7 @@ a {
 /* Section à propos de moi */
 
 #informations > p {
-    padding: 10% 15% 135% 15%;
+    padding: 10% 15% 130% 15%;
     line-height: 1.5;
     text-align: justify;
     color: #EEEEEE;
@@ -145,7 +145,7 @@ h3 > i {
 /* Section formation */
 
 #formation, #experience_professionnelle {
-    padding-top: 4%;
+    padding: 4% 0 4% 0;
 }
 
 .mise_en_page {
@@ -176,6 +176,10 @@ h3 > i {
     display: flex;
     padding-left: 5%;
     padding-top: 4%;
+}
+
+.recommandation2 {
+    padding-left: 15%;
 }
 
 /* Partie responsive */
