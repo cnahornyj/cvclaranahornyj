@@ -153,7 +153,7 @@ h3 > i {
 }
 
 .puce {
-    padding: 3.5% 2% 0 5%;
+    margin: 3.5% 2% 0 5%;
 }
 
 .annee {
@@ -163,6 +163,7 @@ h3 > i {
 .etablissement {
     line-height: 0.5;
     padding: 0.75% 0 0 15%;
+    width: 300px;
 }
 
 .taches {
