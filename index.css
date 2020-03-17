@@ -145,7 +145,7 @@ h3 > i {
 /* Section formation */
 
 #formation, #experience_professionnelle {
-    padding: 4% 0 4% 0;
+    padding: 2% 0 2% 0;
 }
 
 .mise_en_page {
@@ -174,8 +174,8 @@ h3 > i {
 
 #recommandation {
     display: flex;
-    padding-left: 5%;
-    padding-top: 4%;
+    padding: 2% 0 0 5%;
+    line-height: 1.5;
 }
 
 .recommandation2 {
