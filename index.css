@@ -125,7 +125,7 @@ a {
 
 #bloc_droit {
     width: 65%;
-    padding-bottom: 2%;
+    padding: 3.5% 0 2% 0;
     color: #455A64;
 }
 
@@ -166,7 +166,7 @@ h3 > i {
 }
 
 .taches {
-    font-size: 99%;
+    font-size: 92%;
     line-height: 1.5;
 }
 
