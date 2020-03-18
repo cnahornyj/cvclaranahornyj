@@ -252,12 +252,20 @@ h3 > i {
     h2 {
         font-size: 130%;
     }
+
+    .puce {
+        margin: 5% 2% 0 5%;
+    }
 }
 
 @media all and (max-width: 450px){
 
     #bloc_droit > h3 {
-        font-size: 110%;
+        font-size: 100%;
+    }
+
+    .puce {
+        margin: 6% 2% 0 5%;
     }
 }
 
@@ -282,6 +290,21 @@ h3 > i {
 
     .etablissement {
         margin-top: -17px;
+        padding-left: 0;
+        width: 250px;
+    }
+
+    .puce {
+        margin-top: -17px;
+        visibility: hidden;
+    }
+
+    #bloc_droit > h3 {
+        width: 100%;
+    }
+
+    .annee {
+        margin: 0;
     }
 
 }
